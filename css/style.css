@@ -2698,7 +2698,7 @@ section {
 }
 
 .footer-distributed .footer-center i{
-	background-color:  wheat;
+	background-color:  rgb(134, 89, 4);
 	color: #081b30;
 	font-size: 25px;
 	width: 38px;
@@ -2706,7 +2706,7 @@ section {
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 15px 25px;
 	vertical-align: middle;
 }
 
@@ -2927,16 +2927,38 @@ font-weight: bolder;
      .logo-of-tmb{
 
           position: relative;
-          top: 1rem;
+          /* top: 1rem;
           left: -8rem;
-          height: 6rem;
+          height: 6rem; */
      
      }
 
 }
 
+.about-email{
 
 
+/* position: relative;
+right: 1rem; */
+}
+
+
+.sport-email{
+
+
+     position: relative;
+     left: 20px;
+}
+
+.sport-data
+
+{
+
+position: relative;
+
+left: 34px;
+
+}
 .img-card:hover{
 
      transform: scale(1.1);

@@ -15,7 +15,7 @@
 
 @media only screen and (min-width: 599px) and (max-width: 767px) {
     .logo {
-        text-align: center;
+    
     }
     .cart-content-right {
         padding-bottom: 5px;
@@ -159,6 +159,54 @@ width: 30%;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  
+   
+   .contact-email{
+
+    position: relative;
+    left: 7px;
+
+
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    .sport-email{
+
+
+        position: relative;
+        left: 1px;
+   }
+   
+
+   .sport-data
+
+   {
+   
+   position: relative;
+   
+ left: 1rem;
+   }
+   
+   
+
+
+    .about-email{
+
+        position: relative;
+        left: 7px;
+     }
+    
+  
+  
+  
     .main-menu ul > li a {padding: 8px 10px; }
 
     .banner-main .carousel-caption h1 {
@@ -211,6 +259,46 @@ width: 41%;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+ 
+    .contact-email{
+
+        position: relative;
+        left: 7px;
+    
+    
+    }
+       
+ 
+ 
+    .sport-email{
+
+
+        position: relative;
+        left: 1px;
+   }
+   
+
+   .sport-data
+
+   {
+   
+   position: relative;
+   
+ left: 1rem;
+   }
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     .last {display: none;}
     .banner-main .carousel-caption {top: 0%;}
 .titlepage h2 {
@@ -269,14 +357,92 @@ width: 55%;
     margin-top: 0px;
 
 }
+
+
+
+.about-email{
+
+    position: relative;
+    left: 7px;
+ }
+
+
 }
 
 
+
+
+
+
+
+
+
 @media (max-width: 575px) {
+ 
+    .contact-email{
+
+        position: relative;
+        left: 7px;
+    
+    
+    }
+ 
+  
+    .sport-email{
+
+
+        position: relative;
+        left: 1px;
+   }
+   
+
+   .sport-data
+
+   {
+   
+   position: relative;
+   
+ left: 1rem;
+   }
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
     .last {display: none;}
     .carousel-caption {display: none;} 
-.header {padding-top: 30px;}
-.logo {float: inherit; padding-bottom: 15px; text-align: center;}
+.header {padding-top: 0px;
+       position: relative;}
+     
+       .mail-foter{
+background-color: rgb(143, 89, 19);
+     
+    }     
+.footer-center{
+
+padding: auto;
+    display: flex;
+}
+
+
+
+
+.about-email{
+
+    position: relative;
+    left: 7px;
+ }
+
+
+
+
+}
+.logo {float: inherit; padding-bottom: 85px; text-align: center;}
 .btn-primary {max-width: 126px;
 margin-right: 2px;
 font-size: 14px;}
@@ -310,7 +476,8 @@ line-height: 38px;}
 #main_slider a.carousel-control-prev {
     position: absolute;
     left: 180px;
-    top: 80%;    
+    top: 80%;   
+
     transform: rotateY(180deg);
 }
 
@@ -373,4 +540,21 @@ ul.link li {
 .menu_text li {float: inherit;
 
 padding-left: 0px;}
+
+
+
+.about-img{
+
+width: 10rem;
+
 }
+
+.mean-bar{
+margin-bottom: 15rem;
+}
+
+.logo_section{
+height: 6rem;
+    
+}
+
