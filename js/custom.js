@@ -72,7 +72,7 @@ $(function () {
 			loop: true,
 			margin: 10,
 			autoplay: true,
-			autoplayTimeout: 5,
+			autoplayTimeout: 10,
 			autoplayHoverPause: true,
 		});
 	});
@@ -90,7 +90,7 @@ $(function () {
 			dots: false,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 			autoplay: true,
-			autoplayTimeout: 5,
+			autoplayTimeout: 10,
 			autoplayHoverPause: true
 		});
 	});
@@ -146,7 +146,7 @@ $(function () {
 	$("#back-to-top").on("click", function () {
 		$('body,html').animate({
 			scrollTop: 0
-		}, 1000);
+		}, 100);
 	});
 
 	/* Contact-form
@@ -247,6 +247,7 @@ $(function () {
 				slidesPerView: 1,
 				spaceBetween: 10,
 				slidesPerColumn: 1,
+				
 			}
 		},
 		pagination: {
