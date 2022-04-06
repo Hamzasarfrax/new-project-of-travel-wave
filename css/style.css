@@ -1076,13 +1076,14 @@ ul.top_icon li a {
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #ffffff;
+    color: #081b30;
+  
      padding: 22px 20px;
      text-transform: uppercase;
 }
 
 
-}
+
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -2864,8 +2865,9 @@ transition: 0.6s ease-in-out;
 .logo-of-tmb{
 
      position: relative;
-     top: -1rem;
-     height: 8rem;
+     
+     width: 15rem;
+     bottom: 6.5rem;
 
 }
 .carousel-control-prev{
@@ -2969,6 +2971,20 @@ left: 34px;
      /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
+
+
+
+
+
+
+
+.image{
+
+
+     transition: all 10s ease-in-out  ;
+     transform: rotateY(360deg);
+   
+}
 
 /* animation */
 
